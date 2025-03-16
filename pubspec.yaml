@@ -17,3 +17,12 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Tektur
+      fonts:
+        - asset: fonts/Tektur-VariableFont_wdth, wght.ttf 
+    
+
+
+fonts:
+  -

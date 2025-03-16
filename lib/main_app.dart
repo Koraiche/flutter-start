@@ -14,12 +14,21 @@ class MainApp extends StatelessWidget {
           backgroundColor: Color.fromARGB(255, 194, 168, 242),
           ),
         body: Center(
-         
-          child: Text("Hello ninjas")
+          child: Text(
+            "Hello ninjas",
+            style: TextStyle(
+              fontSize: 30,
+              fontFamily: 'Tektur',
+              fontWeight: FontWeight.bold,
+              color: Colors.pinkAccent,
+              letterSpacing: 2,
+            )
+          )
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: onPressed,
-          child: Text('Click'),
+          backgroundColor: Colors.pinkAccent,
+          child: Text('Click')
         ),
       ),
     );
